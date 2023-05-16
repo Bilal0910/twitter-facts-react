@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(53, 147, 163);
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav-logo-text, .nav-title {
+    margin: 0;
+}
+
+.nav-logo-text {
+    margin-right: auto;
+    color: blanchedalmond;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.nav-title {
+    color: rgb(230, 229, 247);
+    font-weight: 400px;
+    font-size: 17px;
+}
+
+.nav-icon {
+    height: 70px;
+    margin-right: 7px ;
+}

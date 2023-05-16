@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(86, 96, 107, 0.918);
+}
+
+main {
+    padding: 60px 50px;
+    color: antiquewhite;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.heading {
+    margin: 0;
+    font-size: 45px;
+    color: rgb(9, 209, 245);
+    letter-spacing: -0.04em;
+}
+
+.main-facts {
+    margin-top: 46px;
+}
+
+.main-facts > li {
+    padding-block: 10px;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.main-facts > li::marker {
+    font-size: 1.9rem;
+    color: rgb(9, 247, 247);
+}
